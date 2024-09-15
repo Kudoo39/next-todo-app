@@ -1,3 +1,5 @@
+const { Luckiest_Guy } = require('next/font/google');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,6 +14,9 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      luckiestGuy: ["var(--font-luckiest-guy)"]
+    }
   },
   plugins: [],
 };
